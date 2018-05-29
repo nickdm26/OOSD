@@ -1,0 +1,85 @@
+﻿@model DogSelector.Models.Dog
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>NewDogForm</title>
+</head>
+<body>
+    <div> 
+        <h2>Welcome to the IN710 Dog Selector</h2>
+        <h2>We'll Help You Choose the Perfect Dog</h2>
+
+        <form action="NewDogForm" method="post">
+            <p>Must be good with children: 
+            <br /><input type="radio" name="GoodWithKids" value="true" />Yes
+            <br /> <input type="radio" name="GoodWithKids" value="false" checked />No </p>
+
+            <p>Drooling:
+            <br /><input type="radio" name="Drooling" value="false" />No Slobbering!
+            <br /><input type="radio" name="Drooling" value="true" checked/>Don't Mind</p>
+
+            <p>Coat Length:
+            <br /><input type="radio" name="Length" value="Short" />Short
+            <br /><input type="radio" name="Length" value="Medium" checked/>Medium
+            <br /><input type="radio" name="Length" value="Long" />Long</p>
+
+            <p>Preferences</p>
+
+            <table>
+                <tr>
+                    <th></th>
+                    <th>Low</th>
+                    <th>Medium</th>
+                    <th>High</th>
+                    <th>No Preference</th>
+                </tr>
+                <tr>
+                    <td>Activity Level:</td>
+                    <td><input type="radio" name="ActivityLvl" value="Low" /></td>
+                    <td><input type="radio" name="ActivityLvl" value="Medium" checked/></td>
+                    <td><input type="radio" name="ActivityLvl" value="High" /></td>
+                    <td><input type="radio" name="ActivityLvl" value="None" /></td>
+                </tr>
+                <tr>
+                    <td>Shedding Level:</td>
+                    <td><input type="radio" name="SheddingLvl" value="Low" /></td>
+                    <td><input type="radio" name="SheddingLvl" value="Medium" checked/></td>
+                    <td><input type="radio" name="SheddingLvl" value="High" /></td>
+                    <td><input type="radio" name="SheddingLvl" value="None" /></td>
+                </tr>
+                <tr>
+                    <td>Grooming Level:</td>
+                    <td><input type="radio" name="GroomingLvl" value="Low" /></td>
+                    <td><input type="radio" name="GroomingLvl" value="Medium" checked/></td>
+                    <td><input type="radio" name="GroomingLvl" value="High" /></td>
+                    <td><input type="radio" name="GroomingLvl" value="None" /></td>
+                </tr>
+                <tr>
+                    <td>Intelligence Level:</td>
+                    <td><input type="radio" name="IntelligenceLvl" value="Low" /></td>
+                    <td><input type="radio" name="IntelligenceLvl" value="Medium" checked/></td>
+                    <td><input type="radio" name="IntelligenceLvl" value="High" /></td>
+                    <td><input type="radio" name="IntelligenceLvl" value="None" /></td>
+                </tr>
+            </table>
+
+            <p><select name="Size">
+                <option value="Miniature">Miniature</option>
+                <option value="Small">Small</option>
+                <option value="Medium">Medium</option>
+                <option value="Large">Large</option>
+                <option value="Giant">Giant</option>
+                </select></p>
+
+            <p><input type="submit" value="Find My Dog" /></p>
+        </form>
+    </div>
+</body>
+</html>

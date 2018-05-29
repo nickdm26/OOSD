@@ -1,0 +1,46 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Home Page</title>
+    <link rel="stylesheet" href="../../Resources/style.css" />
+</head>
+<body>
+    <nav>
+        <h1>Home</h1>
+    </nav>
+    <div class="SideBar">
+        <br />
+        @if (ViewBag.User != null)
+        {
+            <p>Welcome @ViewBag.User</p>
+            <a href="../Login/LogOut">LogOut</a>
+            <br />
+            <br />
+            <a href="../HighScore/Index">HighScores</a>
+            <br />
+            <br />
+            <a href="../Quiz/Index">Quiz</a>
+        }
+        else
+        {
+            <a href="../Login/Login">Login</a>
+            <br />
+            <br />
+            <a href="../HighScore/Index">HighScores</a>
+        }
+    </div>
+    <div class="Content">
+        @if (ViewBag.User == null)
+        {
+            <p>Please Login to start the Quiz.</p>
+        }
+    </div>
+</body>
+</html>

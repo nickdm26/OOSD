@@ -1,0 +1,60 @@
+﻿@model DogSelector.Models.Dog
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>NewDogConfirm</title>
+</head>
+<body>
+    <div> 
+        <h2>Our Recommendation:</h2>
+        <h3>We suggest the @Model.DisplayName</h3>
+        <img src="../Content/DogImages/@Model.ImageName" width="200px"/>
+
+        <table>
+            <tr>
+                <th>Activity Level:</th>
+                <td>@Model.ActivityLevel</td>
+            </tr>
+            <tr>
+                <th>Shedding Level:</th>
+                <td>@Model.SheddingLevel</td>
+            </tr>
+            <tr>
+                <th>Grooming Level:</th>
+                <td>@Model.GroomingLevel</td>
+            </tr>
+            <tr>
+                <th>Intelligence Level:</th>
+                <td>@Model.IntelligenceLevel</td>
+            </tr>
+            <tr>
+                <th>Good With Children:</th>
+                <td>@Model.GoodWithChildren</td>
+            </tr>
+            <tr>
+                <th>Drools:</th>
+                <td>@Model.Drools</td>
+            </tr>
+            <tr>
+                <th>Coat Length:</th>
+                <td>@Model.Coatlength</td>
+            </tr>
+            <tr>
+                <th>Size:</th>
+                <td>@Model.Size</td>
+            </tr>
+        </table>
+
+        <form action="NewDogForm" method="get">
+            <p><input type="submit" value="Choose Another Dog" /></p>
+        </form>
+</div>
+</body>
+</html>

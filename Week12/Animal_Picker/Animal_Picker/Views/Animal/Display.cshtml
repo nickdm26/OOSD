@@ -1,0 +1,22 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Display</title>
+</head>
+<body>
+    <div> 
+        <h3>@ViewBag.Text</h3>
+        <img src="@ViewBag.Animal" width="300" />
+        <form action="Index" method="get">
+            <input type="submit" value="Start Again" />
+        </form>
+    </div>
+</body>
+</html>

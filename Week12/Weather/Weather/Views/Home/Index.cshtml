@@ -1,0 +1,24 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <div> 
+        <h1>INdex</h1>
+        <form action="../Home/Index" method="post">
+            Country Code:<input type="text" name="Code" />
+            <br />
+            <input type="submit" value="Search" />
+        </form>
+        @ViewBag.Info
+    </div>
+</body>
+</html>

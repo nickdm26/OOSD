@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="QuizDB">
+  <DataContextMoniker Name="/QuizDBDataContext" />
+  <nestedChildShapes>
+    <classShape Id="385a3c09-07b6-4a2c-a205-6170f48bc670" absoluteBounds="3, 1.75, 2, 1.3862939453125">
+      <DataClassMoniker Name="/QuizDBDataContext/tblPlayer" />
+      <nestedChildShapes>
+        <elementListCompartment Id="084b9c48-deff-4424-bbd3-e7a6bee58ea4" absoluteBounds="3.015, 2.21, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="e392fcd0-bcd2-4255-938d-11ba8ba160e8" absoluteBounds="6.125, 2, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/QuizDBDataContext/tblResult" />
+      <nestedChildShapes>
+        <elementListCompartment Id="585b5fa8-8863-45fe-814b-fb9292584da8" absoluteBounds="6.14, 2.46, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

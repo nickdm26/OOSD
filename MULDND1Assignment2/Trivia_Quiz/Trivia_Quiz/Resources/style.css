@@ -1,0 +1,47 @@
+﻿body {
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+#clr{
+    clear: both;
+}
+
+.Correct{
+    padding: 3px;
+    background-color: green;
+}
+
+.InCorrect{
+    padding: 3px;
+    background-color: red;
+}
+
+.Content{
+    float: left;
+    width: 83.2%;
+    min-height: 800px;
+    background-color: #e0e0e0;
+    border: black 1px solid;
+    padding: 20px;
+    padding-top: 0px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.SideBar{
+    float: left;
+    background-color: #e0e0e0;
+    border: black 1px solid;
+    padding: 20px;
+    padding-top: 0px;
+    margin-top: 5px;
+    width: 10%;
+}
+
+nav{
+    background-color: #e0e0e0;
+    border: black 1px solid;
+    padding: 20px;
+    padding-top: 0px;
+}

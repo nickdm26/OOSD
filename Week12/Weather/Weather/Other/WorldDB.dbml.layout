@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="WorldDB">
+  <DataContextMoniker Name="/WorldDBDataContext" />
+  <nestedChildShapes>
+    <classShape Id="c697f11c-aac5-4b66-8b56-5e253f17972d" absoluteBounds="0.5, 0.5, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/WorldDBDataContext/city" />
+      <nestedChildShapes>
+        <elementListCompartment Id="d6bd2e25-b14a-4217-a52f-3cc1b34cc7da" absoluteBounds="0.51500000000000012, 0.96, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="06785697-2e9b-43af-929f-62662645e484" absoluteBounds="2.875, 0.5, 2, 3.6939111328124996">
+      <DataClassMoniker Name="/WorldDBDataContext/country" />
+      <nestedChildShapes>
+        <elementListCompartment Id="5c9e1458-b18d-4b19-b1e8-86d337624948" absoluteBounds="2.8899999999999997, 0.96, 1.9700000000000002, 3.1339111328125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="ea583f62-9239-40a2-bd2c-af32baabb91c" absoluteBounds="5.375, 0.5, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/WorldDBDataContext/countrylanguage" />
+      <nestedChildShapes>
+        <elementListCompartment Id="a18cf3eb-b465-480a-a520-b274450533c7" absoluteBounds="5.39, 0.96, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

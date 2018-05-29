@@ -1,0 +1,43 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>High Scores</title>
+    <link rel="stylesheet" href="../../Resources/style.css" />
+</head>
+<body>
+    <nav>
+        <h1>High Scores</h1>
+    </nav>
+    <div class="SideBar">
+        <br />
+        <a href="../Home/Index">Home</a>
+    </div>
+    <div class="Content">
+        <p>The Current Average Scores for each Player from @ViewBag.Now</p>
+        <br />
+            
+        <table>
+            <tr>
+                <th>Player</th>
+                <th>Average Score</th>
+                <th>Games Played</th>
+            </tr>
+            @foreach (var HS in ViewBag.AVG)
+            {
+                <tr>
+                    <td>@HS.PlayerName</td>
+                    <td>@HS.PlayerAverageScore</td>
+                    <td>@HS.GamesPlayed</td>
+                </tr>
+            }
+        </table>
+    </div>
+</body>
+</html>

@@ -1,0 +1,49 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Search</title>
+</head>
+<body>
+    <div> 
+        <h1>Search</h1>
+        <form action="../Home/Index" method="post">
+            Country Code:<input type="text" name="Code" />
+            <br />
+            <input type="submit" value="Search" />
+        </form>
+        <br />
+        <p>
+            Name: @ViewBag.NAME
+        </p>
+        <p>
+            Country: @ViewBag.COUNTRY
+        </p>
+        <p>
+            Type: @ViewBag.MAIN
+            <br />
+            Description: @ViewBag.DESCRIPTION
+            <br />
+            Temp: @ViewBag.TEMPERATURE
+            <br />
+            Humidity: @ViewBag.HUMIDITY
+            <br />
+            Pressure: @ViewBag.PRESSURE
+        </p>
+        <p>
+            Wind
+            <br />
+            Speed: @ViewBag.SPEED
+            <br />
+            Degrees: @ViewBag.DEGREES
+        </p>
+        
+    </div>
+</body>
+</html>
